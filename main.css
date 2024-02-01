@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(77, 77, 77);
+    padding: 16px 0 ;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto ;
+}
+
+.artigo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigo article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.artigo article{
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, 
+.artigo article {
+    margin-bottom: 16px;
+}
+
+.artigo article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.artigo article a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigo article a:hover{
+    text-decoration: underline;
+}
+
+.artigo article p,
+.artigo article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigo article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#esportes{
+    background-color: rgba(141, 216, 0, 0.258);
+}
+
+#esportes .artigo article a{
+    background-color: green;
+}
+
+#economia {
+    background-color: rgba(215, 215, 8, 0.493);
+}
+
+#economia .artigo article a{
+    background-color: rgb(242, 158, 48);
+}
+
+#cinema{
+    background-color: rgba(202, 2, 2, 0.258);
+}
+
+#cinema .artigo article a{
+    background-color: rgb(32, 6, 6);
+}
+
+#jogos {
+    background-color: rgba(0, 11, 171, 0.397);
+}
+
+#jogos .artigo article a{
+    background-color: rgba(43, 255, 216, 0.732);
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto ;
+}
+
+.artigo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigo article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.artigo article{
+    width: 30%;
+}
